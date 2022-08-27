@@ -1,0 +1,40 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'COCOGOOSE', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: rgb(8,8,94);
+	background: linear-gradient(34deg, rgba(8,8,94,1) 0%, rgba(12,123,145,1) 100%);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+p {
+	color: white;
+}
+
+.message {
+	font-weight: 400;
+	font-size: 65px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
